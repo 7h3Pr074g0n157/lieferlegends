@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <link rel="stylesheet" href="assets/CSS/dish-card.css" />
+    <script src="assets/JS/script.js" defer></script>
+    <title>LieferLegends</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="main-header__logo-bar">
+        <span class="main-header__logo">LieferLegends</span
+        ><input type="text" id="main-header__filter-food" />
+        <span
+          id="shopping-cart--icon"
+          class="shopping-cart--icon fas fa-shopping-cart"
+        >
+          <div
+            id="shopping-cart--items-wrapper"
+            class="shopping-cart--items-wrapper d-none"
+          >
+            <table
+              id="shopping-cart__items"
+              class="shopping-cart__items"
+            ></table>
+          </div>
+        </span>
+      </div>
+      <div class="main-header__banner"></div>
+      <nav id="main-nav" class="main-header__main-nav main-nav">
+        <ul class="main-nav__items">
+          <li class="main-nav__item" data-sort="all">Alles</li>
+          <li class="main-nav__item" data-sort="pizza">Pizza</li>
+          <li class="main-nav__item" data-sort="sushi">Sushi</li>
+          <li class="main-nav__item" data-sort="chinese">Chinesisch</li>
+          <li class="main-nav__item" data-sort="burger">Burger</li>
+          <li class="main-nav__item" data-sort="veggie">Vegetarisch</li>
+          <li class="main-nav__item" data-sort="italian">Italienisch</li>
+          <li class="main-nav__item" data-sort="indian">Indisch</li>
+          <li class="main-nav__item" data-sort="mexican">Mexikanisch</li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content" class="main-content">
+      <div id="dishes"></div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

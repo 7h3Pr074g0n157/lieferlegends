@@ -1,0 +1,123 @@
+/* GENERAL-SECTION */
+:root {
+  --std-white: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.d-none {
+  display: none;
+}
+
+/* HEADER-SECTION */
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.main-header__logo-bar {
+  height: 7rem;
+  padding: 2rem 3rem;
+  background-color: rgb(248, 102, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 3rem;
+  color: var(--std-white);
+}
+
+.main-header__filter-food {
+  border: none;
+}
+
+.main-header__banner {
+  height: 20rem;
+  background-image: url('../images/dish/salad.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.main-header__main-nav {
+  height: 7rem;
+  background-color: rgb(248, 245, 242);
+}
+
+.main-nav__items {
+  height: 100%;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main-nav__item {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: rgb(10, 56, 71);
+  cursor: pointer;
+}
+
+.main-nav__item:hover {
+  text-decoration: underline;
+}
+
+.fa-shopping-cart {
+  cursor: pointer;
+}
+
+.shopping-cart__items {
+  min-width: 60rem;
+  min-height: 5rem;
+  border: 1px solid rgb(10, 56, 71);
+  background-color: rgb(211, 211, 211);
+  position: absolute;
+  right: 1px;
+  top: 7rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+}
+
+.shopping-cart__item {
+  margin: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+
+  color: rgb(10, 56, 71);
+}
+
+.shopping-cart__item--headline {
+  border-bottom: 1px solid rgb(10, 56, 71);
+  padding-bottom: 1rem;
+}
+
+.shopping-cart__item--footer {
+  border-top: 1px solid rgb(10, 56, 71);
+  padding-top: 1rem;
+}
+
+.cart-item__headline {
+  font-weight: 900;
+}
+
+/* MAIN-SECTION */
+.main-content {
+  padding-top: 1rem;
+  margin-top: 34rem;
+
+  font-size: 1.6rem;
+}

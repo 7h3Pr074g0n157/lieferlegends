@@ -1,0 +1,191 @@
+[
+  {
+    "id": 0,
+    "sorts": ["burger"],
+    "heading": "Cheeseburger",
+    "sup": "mit 125g Rindfleisch, Gouda, Tomaten, süß-sauren Gurken, roten Zwiebelringen, Salat und hausgemachter Sauce",
+    "sub": "Wahl aus: Bratkartoffeln, mit Country Potatoes, mit Knoblauchbaguette, mit Kroketten, mit Steak Pommes und mehr.",
+    "price": 7.9,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 1,
+    "sorts": ["burger", "veggie"],
+    "heading": "Veggie Burger",
+    "sup": "mit ca. 130g Veggie-Patty aus Mais, Karotten, Blumenkohl und Paprika, Eisbergsalat, und Curry-Mangosauce",
+    "sub": "Wahl aus: mit Bacon, mit Jalapenos, scharf, mit Käse, mit Ketchup, mit Mayonnaise und mehr.",
+    "price": 5.4,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 2,
+    "sorts": ["burger"],
+    "heading": "Bacon Burger",
+    "sup": "mit 125g Rindfleisch, knusprigem Baconstreifen, Eisbergsalat, frischen Tomaten, Essiggurken, Zwiebelringen und Snacksauce",
+    "sub": "Wahl aus: mit Bacon, mit Jalapenos, scharf, mit Käse, mit Ketchup, mit Mayonnaise und mehr.",
+    "price": 6.2,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 3,
+    "sorts": ["pizza", "italian"],
+    "heading": "Pizzabröttchen mit Käse",
+    "sup": "gefüllte Pizzabröttchen mit Käse und Zutaten nach Wahl",
+    "sub": "Wahl aus: mit Champignons, mit Hähnchen, mit Käse, mit Knoblauch-Creme, mit Kräuterbutter und mehr.",
+    "price": 6.9,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 4,
+    "sorts": ["pizza", "italian"],
+    "heading": "Pizza Hawaii",
+    "sup": "mit Vorderschinken und Ananas",
+    "sub": "Wahl aus: mit Ananas, mit Artischocken, mit Basilikum, mit Champignons, frisch, mit Gemüse und mehr.",
+    "price": 11.9,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 5,
+    "sorts": ["pizza", "italian", "veggie"],
+    "heading": "Pizza Margherita (vegetarisch)",
+    "sup": "mit Tomatensauce und frisch geriebenem Käse",
+    "sub": "mit Wahl aus: Edamer, Büffel Mozzarella",
+    "price": 5.9,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 6,
+    "sorts": ["sushi"],
+    "heading": "Fantasy Mix Platte",
+    "sup": "mit 3 Nigiri Salmon, Nigiri Tuna, Nigiri Prawn, Tulip Ikura, Black Tulip und 6 Inside Out Salmon Avocado",
+    "sub": "Wahl aus: Gari, Ingwer, mit Sojasauce und mit Wasabi",
+    "price": 18.3,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 7,
+    "sorts": ["sushi"],
+    "heading": "Fresh Roll Platte 2",
+    "sup": "6 Spring Spicy Tuna, 6 Salmon Roll, 6 Inside Out Tuna melt Avocado",
+    "sub": "Wahl aus: mit Gari, Ingwer, mit Sojasauce und mit Wasabi.",
+    "price": 19.3,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 8,
+    "sorts": ["sushi"],
+    "heading": "Super Nova Platte (für 2 Personen)",
+    "sup": "6 Inside Out Atlantic, 6 Spring Spicy Tuna, 6 Maki Cheese Avocado, 6 Maki Salmon, 2 Nigiri Salmon, 2 Nigiri Tuna, 2 Nigiri Prawn",
+    "sub": "Wahl aus: mit Gari, Ingwer, mit Sojasauce und mit Wasabi.",
+    "price": 38.0,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 9,
+    "sorts": ["chinese"],
+    "heading": "Chinesisch 1",
+    "sup": "Oberbeschreibung",
+    "sub": "Unterbeschreibung",
+    "price": 1.0,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 10,
+    "sorts": ["chinese"],
+    "heading": "Chinesisch 2",
+    "sup": "Oberbeschreibung",
+    "sub": "Unterbeschreibung",
+    "price": 2.0,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 11,
+    "sorts": ["chinese"],
+    "heading": "Chinesisch 3",
+    "sup": "Oberbeschreibung",
+    "sub": "Unterbeschreibung",
+    "price": 3.0,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 12,
+    "sorts": ["veggie"],
+    "heading": "Vegetarisch 1",
+    "sup": "Oberbeschreibung",
+    "sub": "Unterbeschreibung",
+    "price": 1.0,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 13,
+    "sorts": ["veggie"],
+    "heading": "Vegetarisch 2",
+    "sup": "Oberbeschreibung",
+    "sub": "Unterbeschreibung",
+    "price": 2.0,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 14,
+    "sorts": ["veggie"],
+    "heading": "Vegetarisch 3",
+    "sup": "Oberbeschreibung",
+    "sub": "Unterbeschreibung",
+    "price": 3.0,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 15,
+    "sorts": ["indian"],
+    "heading": "Chicken Tikka Masala",
+    "sup": "mariniertes Hühnerbrustfilet mit Mandel-Sahnesauce, im Lehmofen gegrillt",
+    "sub": "Wahl aus: mild zubereitet, mittelscharf zubereitet, scharf zubereitet und mit Safranreis (für 2 Personen).",
+    "price": 13.9,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 16,
+    "sorts": ["indian"],
+    "heading": "Lamm Palak (pikant)",
+    "sup": "Lammfleisch mit Spinat, Zwiebeln, Ingwer, Knoblauch und Curry-Sahnesauce",
+    "sub": "Wahl aus: mild zubereitet, mittelscharf zubereitet, scharf zubereitet und mit Safranreis (für 2 Personen).",
+    "price": 13.9,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 17,
+    "sorts": ["indian"],
+    "heading": "Jheenga Palak",
+    "sup": "Riesengarnelen mit Spinat, Zwiebeln, Ingwer, Knoblauch und Curry-Sahne-Sauce",
+    "sub": "Wahl aus: mild zubereitet, mittelscharf zubereitet, scharf zubereitet und mit Safranreis (für 2 Personen).",
+    "price": 18.9,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 18,
+    "sorts": ["mexican"],
+    "heading": "Mexikanisch 1",
+    "sup": "Oberbeschreibung",
+    "sub": "Unterbeschreibung",
+    "price": 1.0,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 19,
+    "sorts": ["mexican"],
+    "heading": "Mexikanisch 2",
+    "sup": "Oberbeschreibung",
+    "sub": "Unterbeschreibung",
+    "price": 2.0,
+    "image": "wok.jpg"
+  },
+  {
+    "id": 20,
+    "sorts": ["mexican"],
+    "heading": "Mexikanisch 3",
+    "sup": "Oberbeschreibung",
+    "sub": "Unterbeschreibung",
+    "price": 3.0,
+    "image": "wok.jpg"
+  }
+]
